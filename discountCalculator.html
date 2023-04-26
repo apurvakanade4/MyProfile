@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2> Discount Calculator: </h2>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto+Mono&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <style>
+            *{
+                font-family: 'Calibri', monospace;
+                margin: 10px;
+                padding: 1px;
+            }
+            button [type="calculate"]{
+                border-radius: 0px; 
+            }
+            form {
+                font-size: 24px;
+                color: cadetblue;
+            }
+            body element{
+                background-color: #f2f2f2;
+            }
+            input{
+                border-radius: 5px;
+                height: 20px;
+                width: 200px;
+
+            }
+            h3 {
+                text-transform: uppercase;
+            }
+            button{
+                scroll-margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="apurva">
+        <form>
+            <h3> Discount Calculator </h3>
+            <lable> Enter the Bill amount and discount in percentage </lable>
+            <br><br>
+            <table>
+                <tbody>
+                    <tr>
+                    <td> <lable> Bill Amount </lable> </td>
+                    <td> <input type="number"> </td>
+
+                    <tr>
+                    <td> <lable> Discount Percentage </lable> </td>
+                    <td> <input type="number"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <button class="green-button"> Calculate </button></td>
+                        <style>
+                            .green-button {
+                                background-color: green;
+                                padding: 10px 20px;
+                                border: 0px;
+                                border-radius: 30px;
+                                font-size: 24px;
+                                color: white;
+                                cursor: pointer;
+                                height: 50px;
+                                width: 200px;
+                            }
+                        </style>
+                    </tr>
+
+                    <tr>
+                            <td> Total Discount Amount =</td>
+                    </tr>
+                    
+                </tbody>   
+                
+            </table>
+        </form>
+        <style>
+            .apurva {
+                background-color: #f2f2f2;
+                padding: 20px;
+                box-sizing: border-box;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+            }
+        </style>
+        </div>
+    </body>
+</html>
