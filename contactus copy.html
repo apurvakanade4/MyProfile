@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h2> Contact Us </h2>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto+Mono&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+      *{
+                font-family: 'Roboto Slab', serif;
+                
+                
+            }
+            label{
+                color: cadetblue;
+                font-size: x-large;
+            }
+            input{
+                width: 400px;
+                height: 25px;
+                border-radius: 10px;
+                border: 1px solid burlywood;
+                text-decoration-color: blue;
+
+            }
+            input[type="text"]{
+                text-transform: capitalize;
+            }
+            button[type="submit"]{
+              color: darkblue;
+            }
+            
+
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+      <table>
+        <tbody>
+          <tr>
+            <td><lable> Full Name </lable></td>
+            <td><input type="text" id="firstName"autofocus required maxlenght="40"/></td>
+          </tr>
+          <tr>
+            <td><lable> Contact Number </lable></td>
+            <td><input type="number" /></td>
+          </tr>
+
+          <tr>
+            <td><lable> Email Adress </lable></td>
+            <td>
+              <input
+                type="email"
+                required
+                autofocus
+                placeholder="Ex. abc@gmail.com"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Present Adress</td>
+            <td><textarea rows="7" cols="25"> </textarea></td>
+          </tr>
+
+          <tr>
+            <td>
+                <button type="submit">Register</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <button type="reset">Clear All</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </fieldset>
+    </form>
+  </body>
+</html>
